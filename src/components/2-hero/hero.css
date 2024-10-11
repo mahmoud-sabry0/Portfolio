@@ -1,0 +1,44 @@
+.hero .left-section .parent-avatar .avatar {
+  width: 88px;
+  border-radius: 50%;
+  border: solid 1px orange;
+  padding: 1px;
+  box-shadow: 2px 2px 40px gray inset;
+}
+.hero .left-section .parent-avatar i {
+  color: var(--blue);
+  display: contents;
+}
+.hero .left-section .parent-avatar {
+  align-items: end;
+}
+.hero .left-section h1.title {
+  font-size: 2.85rem;
+  line-height: 3.3rem;
+  margin: 24px 0;
+  color: var(--title);
+  margin: auto;
+}
+.hero .left-section p.sub-title {
+  color: var(--subtitle);
+  font-size: 0.9rem;
+  line-height: 1.65rem;
+  margin-bottom: 30px;
+  margin-top: 20px;
+}
+.hero .left-section .all-icons {
+  font-size: 1.2rem;
+  gap: 1.5rem;
+  color: var(--subtitle);
+}
+.hero .left-section .all-icons .icon:hover {
+  font-size: 1.3rem;
+  transition: 0.3s;
+  cursor: pointer;
+  color: var(--iconhover);
+}
+section.hero{
+    margin-top: 3rem;
+}
+
+

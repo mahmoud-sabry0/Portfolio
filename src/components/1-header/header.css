@@ -1,0 +1,124 @@
+header ul {
+  gap: 16px;
+}
+header ul li a {
+  text-decoration: none;
+  color: initial;
+  color: var(--title);
+  opacity: 0.9;
+  font-size: 0.88;
+  font-weight: 500;
+  transition: 0.2s;
+}
+header {
+  padding: 0px 2.4px;
+}
+header nav {
+  background-color: var(--bgHeader);
+  padding-right: 2rem;
+  padding-top: 7px;
+  box-shadow: 1px 1px 40px rgb(49, 48, 48);
+  border-radius: 55px;
+}
+header ul li a:hover {
+  color: var(--blue);
+  opacity: 1;
+  font-size: 0.9rem;
+}
+header button.menu {
+  display: none;
+}
+
+header .fixed {
+  position: fixed;
+  inset: 0;
+  z-index: 11;
+  background-color: rgb(40, 40, 48, 0.91);
+}
+@keyframes mymove {
+    0%   {scale: 0;}
+   60% {scale: 1.2;}
+    100% {scale: 1;}
+  } 
+
+header .fixed ul{
+    animation:mymove 0.7s 1 ;
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2rem;
+  border-radius: 1rem;
+
+  padding: 1rem 2rem;
+  background-color: var(--secondary);
+}
+header .fixed ul li {
+  border-bottom: solid 1px var(--border);
+  padding-bottom: 0.77rem;
+  padding-top: 0.5rem;
+}
+header .fixed ul li:last-child{
+border: none;
+} 
+header .fixed ul li:first-child{
+    text-align: right;
+    border: none;
+    padding-bottom: 0;
+    padding-top: 0.2rem;
+   
+    } 
+header .fixed ul li a{
+    font-size: 1rem;
+}
+
+
+@media (max-width: 700px) {
+  header nav {
+    display: none;
+  }
+
+  header button.menu {
+    display: block;
+  }
+}
+
+header .icon {
+    background-color: var(--bgHeader);
+    height: 2.4rem;
+    width: 2.4rem;
+    font-size: x-large;
+    justify-content: center;
+    text-align: center;
+    border-radius:50% ;
+    border: solid 1px rgba(244, 156,96, 0.249);
+    color: var(--subtitle);
+    transition: 0.2s;
+   
+}
+header .button {
+    background-color: var(--bgHeader);
+    height: 2.4rem;
+    width: 2.4rem;
+    font-size: x-large;
+    justify-content: center;
+    text-align: center;
+    border-radius:50% ;
+    border: solid 1px rgba(244, 156,96, 0.249);
+    color: var(--subtitle);
+    transition: 0.2s;
+   
+}
+header .button:hover{
+    color: var(--title);
+    border: solid 1px rgb(244, 165, 96);
+    rotate: 180deg;
+}
+button:active{
+    scale: 0.50;
+}
+
+header button.icon:hover{
+    color: var(--title);
+    border: solid 1px rgb(244, 165, 96);
+    
+}
