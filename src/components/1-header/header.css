@@ -122,3 +122,7 @@ header button.icon:hover{
     border: solid 1px rgb(244, 165, 96);
     
 }
+button .bi-brightness-high{
+  color:rgb(255, 165,0);
+ 
+}

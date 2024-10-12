@@ -19,7 +19,8 @@ section.contact-us label{
 section.contact-us #email,section.contact-us #message{
     all: unset;
     background-color: rgba(63, 63, 70, 0.15);
-    border:solid 1px rgba(63, 63, 70, );
+    border:solid 1px var(--border);
+    color: var(--title);
     width: 16rem;
     padding: 0.5rem 1rem;
     margin-left: 1rem;
@@ -77,4 +78,6 @@ section.contact-us .submit:hover{
     }
 
 }
+p{color: var(--subtitle);}
+
 

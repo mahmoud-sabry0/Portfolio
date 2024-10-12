@@ -2,12 +2,24 @@
     --primary:#000;
     --secondary:rgb(24,24,27);
     --border:rgba(63,63,70,0.4);
-    --title:rgb(244,244,245);
+    --title:rgb(255, 255, 255);
     --subtitle:rgb(161,161,170);
     --bgHeader:rgb(39,39,42);
     --blue:rgb(93,188,252);
     --iconhover:#d4d4d8;
 }
+body.bg-light{
+    --primary:rgb(250,250,250);
+    --secondary:rgb(255,255,255); 
+    --border:rgba(202,202,202,0.518);
+    --title:rgb(39,39,42);
+    --subtitle:rgb(82,82,91);
+    --bgHeader:rgb(253,253,253);
+    --blue:rgb(0,149,246);
+    --iconhover:#333;
+}
+
+
 
 html{box-sizing: border-box;
 letter-spacing: 0.1px;
@@ -74,10 +86,11 @@ color: #fff;
         width: 90%;
 
     };
-    .body .scroll2Top{
+     .scroll2Top{
         opacity: 0.4;
         width: 2.2rem;
         height: 2.2rem;
+        font-size: 2rem;
     }
 }
     
@@ -104,7 +117,7 @@ color: #fff;
   /* for Firefox */
    html {scrollbar-color: #999  #1b2025;} 
 
-.body .scroll2Top{
+ .scroll2Top{
     background-color: var(--blue);
     width: 2.6rem;
     height: 2.6rem;
@@ -115,6 +128,6 @@ color: #fff;
    
     text-align: center;
 }
-.body .scroll2Top:hover{
+ .scroll2Top:hover{
     background-color: rgb(25, 118,210);
 }
