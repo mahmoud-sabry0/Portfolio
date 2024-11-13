@@ -131,3 +131,7 @@ color: #fff;
  .scroll2Top:hover{
     background-color: rgb(25, 118,210);
 }
+button:disabled{
+    opacity: 0.4;
+    cursor: not-allowed;
+}

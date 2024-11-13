@@ -1,6 +1,8 @@
 import React from "react";
 import "../2-hero/hero.css";
 import img from "../../img/WhatsApp Image 2024-09-21 at 6.01.57 PM.jpeg";
+import divAnimation from "../../img/Animation - 1729093970103.json"
+import Lottie from "lottie-react";
 export default function Hero() {
   return (
     <>
@@ -21,7 +23,7 @@ export default function Hero() {
   <div className="icon"><i class="bi bi-linkedin"></i></div>
  </div>
         </div>
-        <div className="right-section animation border">hjhbjlktfygu</div>
+        <div className="right-section animation "><Lottie className="contactAnimation"  animationData={divAnimation}/></div>
       </section>
     </>
   );

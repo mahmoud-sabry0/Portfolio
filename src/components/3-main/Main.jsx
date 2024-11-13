@@ -4,8 +4,6 @@ import "../3-main/main.css";
 import { Fade } from "react-awesome-reveal";
 import { myprojects } from "../Myprojcts/Myprojcts";
 
-
-
 export default function Main() {
   const [currentActive, setcurrentActive] = useState("all");
 
@@ -13,7 +11,6 @@ export default function Main() {
 
   return (
     <>
-    
       <main className="d-flex pt-5">
         <section className="left-section d-flex">
           <button
@@ -86,55 +83,49 @@ export default function Main() {
             Nood & Express
           </button>
         </section>
-        
+
         <section className="right-section d-flex ">
-        
           {arr.map((item) => {
             return (
               <>
-              <Fade>
-              
-                <article key={item.imgPath} className="card1">
-                  <img width={266} src={item.imgPath} alt="" />
-                  <div className="box " style={{ width: "266px" }}>
-                    <h2 className="title">{item.projectTitle}</h2>
+                <Fade>
+                  <article key={item.imgPath} className="card1">
+                    <img width={266} src={item.imgPath} alt="nnn" />
+                    <div className="box " style={{ width: "266px" }}>
+                      <h2 className="title">{item.projectTitle}</h2>
 
-                    <p className="sub-title">
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                      Ducimus sequi delectus magnam nulla incidunt.
-                    </p>
-                    <div className="d-flex icons">
-                      <div style={{ gap: "11px" }} className="icon d-flex">
-                        <div>
-                          <i class="bi bi-link-45deg"></i>
+                      <p className="sub-title">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing
+                        elit. Ducimus sequi delectus magnam nulla incidunt.
+                      </p>
+                      <div className="d-flex icons">
+                        <div style={{ gap: "11px" }} className="icon d-flex">
+                          <div>
+                            <i class="bi bi-link-45deg"></i>
+                          </div>
+                          <div>
+                            <i class="bi bi-github"></i>
+                          </div>
                         </div>
-                        <div>
-                          <i class="bi bi-github"></i>
-                        </div>
+                        <a
+                          style={{ textDecoration: "none", color: "" }}
+                          className="link d-flex"
+                          href="/"
+                        >
+                          more
+                          <span>
+                            <i class="bi bi-arrow-right"></i>
+                          </span>
+                        </a>
                       </div>
-                      <a
-                        style={{ textDecoration: "none", color: "" }}
-                        className="link d-flex"
-                        href="/"
-                      >
-                        more
-                        <span>
-                          <i class="bi bi-arrow-right"></i>
-                        </span>
-                      </a>
                     </div>
-                  </div>
-                </article>
+                  </article>
                 </Fade>
               </>
-
             );
           })}
-          
         </section>
-        
       </main>
-      
     </>
   );
 }
