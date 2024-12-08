@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/semi-portfolio/static/css/main.9bd0abcc.css",
+    "main.js": "/semi-portfolio/static/js/main.5baffd0a.js",
+    "static/js/453.ed3810f9.chunk.js": "/semi-portfolio/static/js/453.ed3810f9.chunk.js",
+    "static/media/mahmou1 (12).jpg": "/semi-portfolio/static/media/mahmou1 (12).7ffdd1eea5789a5e9429.jpg",
+    "static/media/mahmou1 (11).jpg": "/semi-portfolio/static/media/mahmou1 (11).130e1a95ab50e020b9b7.jpg",
+    "static/media/mahmou1 (9).jpg": "/semi-portfolio/static/media/mahmou1 (9).25532d5de505dd9c8362.jpg",
+    "static/media/mahmou1 (7).jpg": "/semi-portfolio/static/media/mahmou1 (7).ab69e3fccb0892b10b5d.jpg",
+    "static/media/mahmou1.webp": "/semi-portfolio/static/media/mahmou1.59475e0a48640820bcc5.webp",
+    "static/media/mahmou1 (8).jpg": "/semi-portfolio/static/media/mahmou1 (8).7e9932b161b91d081565.jpg",
+    "static/media/mahmou1 (13).jpg": "/semi-portfolio/static/media/mahmou1 (13).c0e5a9a8ec1a4a80cd86.jpg",
+    "static/media/bootstrap-icons.woff?": "/semi-portfolio/static/media/bootstrap-icons.39795c0b4513de014cf8.woff",
+    "static/media/bootstrap-icons.woff2?": "/semi-portfolio/static/media/bootstrap-icons.b7bcc075b395c14ce8c2.woff2",
+    "static/media/mahmou1 (10).jpg": "/semi-portfolio/static/media/mahmou1 (10).7d0398b0332f12a43df8.jpg",
+    "static/media/WhatsApp Image 2024-09-21 at 6.01.57 PM.jpeg": "/semi-portfolio/static/media/WhatsApp Image 2024-09-21 at 6.01.57 PM.e702afde8404fced9757.jpeg",
+    "index.html": "/semi-portfolio/index.html",
+    "main.9bd0abcc.css.map": "/semi-portfolio/static/css/main.9bd0abcc.css.map",
+    "main.5baffd0a.js.map": "/semi-portfolio/static/js/main.5baffd0a.js.map",
+    "453.ed3810f9.chunk.js.map": "/semi-portfolio/static/js/453.ed3810f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9bd0abcc.css",
+    "static/js/main.5baffd0a.js"
+  ]
+}
