@@ -14,7 +14,7 @@ export default function Hero() {
               <i class="bi bi-patch-check-fill "></i>
             
           </div>
-          <h1 className="title">Welcome to c4a.dev 👋</h1>
+          <h1 className="title">Welcome to semi-portfolio 👋</h1>
           <p className="sub-title ">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius tempora vero provident qui nemo distinctio. Quod dignissimos neque, quo, ut nobis animi veniam tempora quasi perferendis, quaerat error dolor vero.</p>
           <div className="all-icons d-flex ">
   <div className="icon"><i class="bi bi-twitter"></i></div>
